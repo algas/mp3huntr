@@ -1,6 +1,6 @@
 # Mp3Huntr
 
-Application server to download videos and extract mp3 sound files.
+Application server written in haskell to download videos and extract mp3 sound files.
 
 ## OS
 
