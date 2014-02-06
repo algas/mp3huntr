@@ -1,0 +1,10 @@
+port = 5555
+youtubecmd = /usr/bin/youtube-dl
+nicovideocmd = /usr/bin/nicovideo-dl
+ffmpegcmd = /usr/bin/ffmpeg
+tempdir = /tmp
+destdir = music
+bitrate = 256
+samplingrate = 44100
+nicouser = nico
+nicopass = secret
