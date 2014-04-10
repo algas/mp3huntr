@@ -16,11 +16,11 @@ executable mp3huntr
   main-is:             Mp3Huntr.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.6 && <4.7
-                     , scotty >=0.6.2 && <0.7
+  build-depends:       base >=4.6 && <4.8
+                     , scotty >=0.6.2 && <0.8
                      , HTTP >=4000.2.10 && <4000.3
-                     , text >=1.0.0.1 && <1.1
-                     , process >=1.1.0.2 && <1.2
+                     , text >=1.0.0.1 && <1.2
+                     , process >=1.1.0.2 && <1.3
                      , transformers >=0.3.0.0 && <0.4
                      , network >=2.4.2.2 && <2.5
                      , temporary >=1.2.0.1 && <1.3
@@ -35,11 +35,11 @@ executable mp3huntr
 
 test-suite spec
   main-is:             Spec.hs
-  build-depends:       base >=4.6 && <4.7
-                     , scotty >=0.6.2 && <0.7
+  build-depends:       base >=4.6 && <4.8
+                     , scotty >=0.6.2 && <0.8
                      , HTTP >=4000.2.10 && <4000.3
-                     , text >=1.0.0.1 && <1.1
-                     , process >=1.1.0.2 && <1.2
+                     , text >=1.0.0.1 && <1.2
+                     , process >=1.1.0.2 && <1.3
                      , transformers >=0.3.0.0 && <0.4
                      , network >=2.4.2.2 && <2.5
                      , temporary >=1.2.0.1 && <1.3
@@ -49,7 +49,7 @@ test-suite spec
                      , filepath >=1.3.0.1 && <1.4
                      , bytestring >=0.10.0.2 && <0.11
                      , http-types >=0.8.3 && <0.9
-                     , hspec >=1.8.1.1 && < 1.9
+                     , hspec >=1.8.1.1 && < 2.0
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test, src
   default-language:    Haskell2010
